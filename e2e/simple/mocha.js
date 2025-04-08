@@ -1,4 +1,5 @@
-import { expect } from 'chai'
+require = require('esm')(module);
+const { expect } = require('chai');
 const { Builder, By } = require('selenium-webdriver');
 
 let driver;

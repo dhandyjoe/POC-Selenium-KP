@@ -10,6 +10,7 @@
 	"description": "",
 	"dependencies": {
 		"chromedriver": "^134.0.5",
+		"esm": "^3.2.25",
 		"selenium-webdriver": "^4.30.0"
 	},
 	"devDependencies": {
