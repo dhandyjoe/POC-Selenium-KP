@@ -2,10 +2,10 @@ name: Run Selenium Tests and Generate Report
 on:
     push:
         branches:
-            - main
+            - master
     pull_request:
         branches:
-            - main
+            - master
 jobs:
     run-selenium:
         runs-on: ubuntu-latest
