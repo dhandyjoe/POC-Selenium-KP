@@ -19,4 +19,4 @@ jobs:
             - name: Install dependencies
               run: npm install
             - name: Run Selenium tests and generate report
-              run: npx mocha --reporter mochawesome --reporter-options reportDir=mochawesome-report,reportFilename=index,quiet=true e2e/simple/mocha.js
+              run: npx mocha e2e/simple/mocha.js
