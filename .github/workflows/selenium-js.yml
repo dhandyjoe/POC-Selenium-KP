@@ -18,5 +18,5 @@ jobs:
                   node-version: "18"
             - name: Install dependencies
               run: npm install
-            - name: Run Selenium tests and generate report
+            - name: Run test
               run: npx mocha e2e/simple/mocha.js
