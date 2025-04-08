@@ -19,4 +19,4 @@ jobs:
             - name: Install dependencies
               run: npm install
             - name: Run test
-              run: npx mocha e2e/simple/mocha.js
+              run: npx mocha e2e/simple/mocha.cjs
