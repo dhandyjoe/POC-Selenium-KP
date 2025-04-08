@@ -20,8 +20,3 @@ jobs:
               run: npm install
             - name: Run Selenium tests and generate report
               run: npx mocha --reporter mochawesome --reporter-options reportDir=mochawesome-report,reportFilename=index,quiet=true e2e/simple/mocha.js
-            - name: Upload Mochawesome report
-              uses: actions/upload-artifact@v3
-              with:
-                  name: mochawesome-report
-                  path: mochawesome-report
