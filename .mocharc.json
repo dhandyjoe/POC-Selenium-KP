@@ -1,0 +1,11 @@
+{
+	"reporter": "mochawesome",
+	"reporterOptions": {
+		"reportDir": "mochawesome-report",
+		"reportFilename": "test-report",
+		"quiet": true,
+		"overwrite": false,
+		"html": true,
+		"json": true
+	}
+}
